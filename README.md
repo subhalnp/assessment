@@ -8,8 +8,16 @@ Worked on Intellij workspace for this assessment
     >> Checking the initial condition for slot eligibility by comparing the difference of start,End time is
                 bigger than the event duration. If yes it would process further. otherwise moves to next slot in the list.
 
-2.
->
+2. Based on the index formulas created functions to handle addTicket and getNextTicket.
+    The parent node is stored at index i.
+    The left child is at 2 * i + 1.
+    The right child is at 2 * i + 2.
+
+    For AddTicket // Moves the newly added element up to maintain the heap property
+    newly added element and compare with parent interchange  based on priority
+
+    getNextTicket():  Return the highest priority and then remove it.
+
 
 3. Code Refactoring: "Ticket Price Calculator Cleanup"
 ------------------------------------------------------
