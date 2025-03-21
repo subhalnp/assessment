@@ -1,6 +1,7 @@
 package question2;
 
 public class TicketPriorityQueue {
+
     private static class Ticket{
         private int priority;
         private int ticketId;
